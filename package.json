@@ -13,7 +13,7 @@
   },
   "electronVersion": "1.3.4",
   "scripts": {
-    "start": "electron ."
+    "start": "electron . &"
   },
   "files": [
     "index.js",
