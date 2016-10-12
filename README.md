@@ -24,8 +24,9 @@ If you have no hive wallet yet, no worries! You can set one up within the menuba
 - initial commit
 
 #####TODO
-- documentation for build processes (osx/linux/windows)
+- **fix copy & paste** for e.g. wallet addresses
 - desktop notifications on incoming transactions
+- documentation for build processes (osx/linux/windows)
 - auto-start feature after login - [read more](http://electron.atom.io/docs/api/app/#appsetloginitemsettingssettings-macos-windows)
 
 ###CREDITS
