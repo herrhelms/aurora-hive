@@ -1,19 +1,23 @@
 {
   "name": "aurora-hive",
   "productName": "AuroraHive",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Auroracoin (AUR) hive wallet in your menubar",
   "license": "MIT",
   "repository": "herrhelms/aurora-hive",
   "author": {
     "name": "herrhelms"
   },
+  "env": {
+    "showDockIcon": false
+  },
   "engines": {
     "node": ">=4"
   },
   "electronVersion": "1.3.4",
   "scripts": {
-    "start": "electron . &"
+    "start": "electron . &",
+    "build-mac": "electron-packager . --platform=darwin --icon=Icon --arch=x64 --out=dist AuroraHive"
   },
   "files": [
     "index.js",
@@ -24,8 +28,16 @@
     "electron-app",
     "menubar",
     "crypto",
-    "osx"
+    "auroracoin",
+    "AUR"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herrhelms/aurora-hive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/herrhelms/aurora-hive/issues"
+  },
   "dependencies": {
     "electron-debug": "^1.0.1",
     "menubar": "^5.1.0"

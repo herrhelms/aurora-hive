@@ -1,4 +1,4 @@
-::selection { background: white; }
+::selection { background: transparent; }
 
 html,
 body {
@@ -31,4 +31,9 @@ body {
 
 .close:hover #close{
 	display: block;
+}
+
+input::selection {
+	background: rgba(255, 255, 125, 0.99);
+	color: #032764;
 }
