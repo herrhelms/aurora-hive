@@ -1,9 +1,6 @@
-var menubar = require('menubar')
-var settings = require('./package.json').env
-  console.log('settings',settings);
-
-
-var mb = menubar({dir: __dirname, icon: __dirname + '/icon.png', preloadWindow: true, width:400, height:585, showDockIcon: settings.showDockIcon, resizable: false})
+const menubar = require('menubar')
+const settings = require('./package.json').env
+const mb = menubar({dir: __dirname, icon: __dirname + '/icon.png', preloadWindow: true, width:400, height:585, showDockIcon: settings.showDockIcon, resizable: false})
 
 const {Menu} = require('electron')
 
