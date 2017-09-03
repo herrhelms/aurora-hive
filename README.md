@@ -7,6 +7,8 @@ If you have no hive wallet yet, no worries! You can set one up within the menuba
 
 ![Screenshot](https://www.dropbox.com/s/ntn4irwrznj7bf1/gh_aur_hive.jpg?raw=1)
 
+* * *
+
 ###Installation (for hobbyists)
 
  - download or clone this repo
