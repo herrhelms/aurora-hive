@@ -9,7 +9,7 @@ If you have no hive wallet yet, no worries! You can set one up within the menuba
 
 * * *
 
-###Installation (for hobbyists)
+### Installation (for hobbyists)
 
  - download or clone this repo
  - `cd` into the repo
@@ -17,19 +17,19 @@ If you have no hive wallet yet, no worries! You can set one up within the menuba
  - `npm start`
 
 
-###ROADMAP
+### ROADMAP
 
-#####DONE
+##### DONE
 - initial commit
 - fix copy & paste for e.g. wallet addresses
 
-#####TODO
+##### TODO
 - desktop notifications on incoming transactions
 - documentation for build processes (osx/linux/windows)
 - auto-start feature after login - [read more](http://electron.atom.io/docs/api/app/#appsetloginitemsettingssettings-macos-windows)
 
-###CREDITS
+### CREDITS
 Kudos to the people that build hive.auroracoin.is, the people at [Auraráð](http://aurarad.is/english/), the Icelandic foundation behind Auroracoin (AUR). The people that build this [menubar](https://github.com/maxogden/menubar) thingie for electronjs.
 
-###LIKE THIS REPO?
-Star the repo! Fork the repo! Star the repo! Fork the repo! Send in your Issues and PRs!
+### LIKE THIS REPO?
+Star the repo! Fork the repo! Modify the repo! Report Issues! And feel free to send in your PRs!
